@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    font-weight: 600;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -70,6 +71,28 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* header */
+header{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.logo {
+    margin-right: 40px;
+}
+header nav a {
+    font-size :14px;
+    color: black;
+    text-decoration: none;
+    margin-right: 60px;    
+}
+header nav {
+    padding-top: 30px;
+}
+    
+.top-pic{
+    margin-bottom: 20px;
+}
 
 .top-content {
     display: flex;
@@ -104,14 +127,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1{
+    background: teal;
+}
+.boxes .box2{
+    background: gold;
+}
+.boxes .box3{
+    background: cadetblue;
+}
+.boxes .box4{
+    background: coral;
+}
+.boxes .box5{
+    background: crimson;
+}
+.boxes .box6{
+    background: forestgreen;
+}
+.boxes .box7{
+    background: darkorchid;
+}
+.boxes .box8{
+    background: hotpink;
+}
+.boxes .box9{
+    background: indigo;
+}
+.boxes .box10{
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
