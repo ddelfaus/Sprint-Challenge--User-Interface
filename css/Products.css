@@ -1,0 +1,29 @@
+.products-page{
+    width: 800px;
+    margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.products-page header{
+    margin-right: 70px;
+}
+.products {
+    display :flex;
+    flex-direction: column;
+  
+}
+
+
+
+
+
+.gold {
+    width: 30%;
+    height: 30%;
+}
+.doritos {
+    width: 30%;
+    height: 40%;
+}
